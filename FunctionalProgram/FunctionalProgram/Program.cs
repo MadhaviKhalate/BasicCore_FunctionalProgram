@@ -29,7 +29,8 @@ public class Program
                 harmonic.harmonicNumber();
                 break;
             case 5:
-                //basic.HeadTail();
+                PrimeFactor prime_factor = new PrimeFactor();
+                prime_factor.primeFactor();
                 break;
             case 6:
                 //basic.HeadTail();
