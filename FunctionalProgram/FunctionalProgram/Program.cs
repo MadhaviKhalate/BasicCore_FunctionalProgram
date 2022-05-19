@@ -21,7 +21,8 @@ public class Program
                 leap_year.leapYear();
                 break;
             case 3:
-                //basic.HeadTail();
+                PowerOfTwo power = new PowerOfTwo();
+                power.powerOf2();
                 break;
             case 4:
                 //basic.HeadTail();
