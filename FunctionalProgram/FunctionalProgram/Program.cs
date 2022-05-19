@@ -17,7 +17,8 @@ public class Program
                 flip_coin.HeadTail();
                 break;
             case 2:
-                //basic.HeadTail();
+                LeapYear leap_year = new LeapYear();
+                leap_year.leapYear();
                 break;
             case 3:
                 //basic.HeadTail();
