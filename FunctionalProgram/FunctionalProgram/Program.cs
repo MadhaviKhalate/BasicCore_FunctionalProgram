@@ -25,7 +25,8 @@ public class Program
                 power.powerOf2();
                 break;
             case 4:
-                //basic.HeadTail();
+                HarmonicNumber harmonic = new HarmonicNumber();
+                harmonic.harmonicNumber();
                 break;
             case 5:
                 //basic.HeadTail();
