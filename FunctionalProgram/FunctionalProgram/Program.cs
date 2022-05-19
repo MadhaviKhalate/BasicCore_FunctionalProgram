@@ -37,7 +37,8 @@ public class Program
                 quotient.quotientRemainder();
                 break;
             case 7:
-                //basic.HeadTail();
+                SwapNumber swap_number = new SwapNumber();
+                swap_number.swapNumber();
                 break;
             case 8:
                 //basic.HeadTail();
