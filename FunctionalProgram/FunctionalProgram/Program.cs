@@ -6,7 +6,7 @@ public class Program
     public static void Main(string[] args)
     {
         Console.WriteLine("1.Flip Coin\n2.Leap Year\n3.Power of Two\n4.Harmonic Number\n5.Prime Factors" +
-            "\n6.Quotient and Remainder\n7.Swap Numbers\n8.Even Odd\n9.Vowels and Consonant\nLargest Number");
+            "\n6.Quotient and Remainder\n7.Swap Numbers\n8.Even Odd\n9.Vowels and Consonant\n10.Largest Number");
         Console.WriteLine("Enter option ");
         int option = Convert.ToInt32(Console.ReadLine());
 
@@ -41,7 +41,8 @@ public class Program
                 swap_number.swapNumber();
                 break;
             case 8:
-                //basic.HeadTail();
+                EvenOdd even_odd = new EvenOdd();
+                even_odd.evenOdd();
                 break;
             case 9:
                 //basic.HeadTail();
