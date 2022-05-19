@@ -49,7 +49,8 @@ public class Program
                 vowels_consonant.vowelsConsonant();
                 break;
             case 10:
-                //basic.HeadTail();
+                LargestNumber large_number = new LargestNumber();
+                large_number.largestNumber();
                 break;
             default:
                 //basic.HeadTail();
