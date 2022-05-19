@@ -33,7 +33,8 @@ public class Program
                 prime_factor.primeFactor();
                 break;
             case 6:
-                //basic.HeadTail();
+                QuotientRemainder quotient = new QuotientRemainder();
+                quotient.quotientRemainder();
                 break;
             case 7:
                 //basic.HeadTail();
