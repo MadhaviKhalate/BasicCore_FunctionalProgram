@@ -45,7 +45,8 @@ public class Program
                 even_odd.evenOdd();
                 break;
             case 9:
-                //basic.HeadTail();
+                VowelsConsonant vowels_consonant = new VowelsConsonant();
+                vowels_consonant.vowelsConsonant();
                 break;
             case 10:
                 //basic.HeadTail();
